@@ -1,0 +1,47 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+    <title>Gasolina ou Álcool?</title>
+</head>
+
+<body>
+    <h1>GASOLINA OU ÁLCOOL?</h1>
+    <img id="gaspump" src="gaspump.jpg">
+    <div class="box">
+        <p>
+            Possuindo um carro que aceita gasolina e álcool, acabamos refletindo <br> frequentemente qual o combustível
+            mais vantajoso para o nosso dia a dia. <br> Considerando que o desempenho total do consumo de álcool é 70%
+            do desempenho <br> da gasolina,
+            calculamos qual compensaria mais fazendo a divisão do preço do álcool, que possui <br> um desempenho menor,
+            com o preço da gasolina. Assim, temos 70 ÷ 100 = 0.70 <br> <br> Fazendo a divisão dos preços, se o resultado
+            for superior a 0,70, temos
+            a <strong>gasolina</strong> como a mais vantajosa. <br> Se o resultado for inferior a 0,70, temos o
+            <strong>álcool</strong> como mais vantajoso. <br> Se o resultado for exatamente 0,70, ambos são vantajoso.
+            <br>
+        </p>
+    </div>
+    <br>
+    <form>
+        <p>
+            <strong>PREÇO DA GASOLINA:</strong><br> R$<input class="campotxt" id="precoGasolina" placeholder="EX: 7,29"
+                type="number" name="gasolina" step="0.01" required />
+        </p>
+
+        <p>
+            <strong>PREÇO DO ÁLCOOL:</strong><br> R$<input class="campotxt" id="precoAlcool" placeholder="EX: 5,29"
+                type="number" name="alcool" step="0.01" required />
+        </p>
+        <p>Qual compensa mais? <br>
+            <input class="button" type="button" value="Calcular" onclick="divideBy()">
+        </p>
+    </form>
+</body>
+<footer><a href="https://www.freepik.com/vectors/white-abstract">White abstract vector created by starline -
+        www.freepik.com</a></footer>
+
+</html>
