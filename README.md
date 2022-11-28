@@ -5,3 +5,7 @@ Considering that a car using ethanol have 70% less performance then gasoline, we
 by doing some simple math. 
 
 Made this simple tool as a project for college.
+
+## Screenshots
+
+![Landing Page](screenshot.PNG)
