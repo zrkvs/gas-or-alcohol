@@ -8,4 +8,4 @@ Made this simple tool as a project for college.
 
 ## Screenshots
 
-![Landing Page](screenshot.PNG)
+![Landing Page](screenshots.PNG)
