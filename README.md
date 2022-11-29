@@ -1,11 +1,15 @@
-A simple script for calculating what type of combustible is more efficient based on price.
+## Fuel Prices Validator
 
-Owning a car that accepts either gasoline and ethanol, we frequently reflect which one is better in a everyday basis. 
-Considering that a car using ethanol have 70% less performance then gasoline, we can calculate which one can be more efficient 
-by doing some simple math. 
+Simple application that checks what fuel type is better, ethanol or gasoline, according to fuel prices
+
+In Brazil, most cars accept both fuel types, but gasoline performs much better. Ethanol performance is equivalent to 70% of gasoline performance. This tool applies a formula to verify which fuel type is better depending on prices.
 
 Made this simple tool as a project for college.
 
 ## Screenshots
 
 ![Landing Page](screenshots.png)
+
+## How to Test
+
+Clone this project using the Git command line and open the index.html file.
